@@ -1,0 +1,64 @@
+.projects {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 20.66rem;
+    margin: 0 .5rem 2.3rem .5rem;
+}
+
+.projects .imageContainer {
+    height: 14.66rem;
+    margin-bottom: 1rem;
+}
+
+.projectImage {
+    border-radius: 0%;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+
+
+.projects h2 {
+    margin-bottom: .5rem;
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.projects h4 {
+    margin-bottom: .5rem;
+    font-size: large;
+    font-weight: 600;
+}
+
+.projectInformation p {
+    font-size: .88rem;
+    font-weight: 300;
+    line-height: 1rem;
+}
+
+.projects .workButtons {
+    margin-bottom: 1.5rem;
+}
+
+.projects .linkbutton {
+    margin-bottom: 7px;
+    background-color: aqua;
+    position: relative;
+    display: inline-block;
+    padding: 0.5rem 1.5rem 1rem;
+    border: none;
+    margin-right: 5px;
+    transition: all 300ms ease-out;
+}
+
+.projects .a {
+    color: black;
+    text-decoration: none;
+    letter-spacing: 0.01rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-style: italic;
+    text-transform: capitalize;
+}
