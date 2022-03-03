@@ -2,6 +2,7 @@ import React from "react";
 import Contact from "../Contact/contact";
 import './about.css';
 import profileImage from '../../images/ProfilePic.png';
+import PP2 from '../../images/PP2.JPG'
 
 class About extends React.Component {
     render() {
@@ -10,7 +11,8 @@ class About extends React.Component {
             <div className="wrapper">
               <div className="infosection">
                 <div className="profileimage" >
-                  <img className="Image" src={profileImage}  alt="Picture of Pooja Patel"></img>
+                  <img className="Image" src={PP2}  alt="Picture of Pooja Patel"></img>
+                  
                 </div>
                 <div className="info">
                   <h1>Hi, I am Pooja</h1>

@@ -8,8 +8,6 @@ class ProjectList extends React.Component {
         return (
             <section id="projects">
             <div className="wrapper">
-
-            
                 <div className="projectInfo">
                     <h1>Projects I've built</h1>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo

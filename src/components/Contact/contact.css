@@ -1,0 +1,194 @@
+#contact .wrapper {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 8%;
+}
+
+#contact .contactHeading {
+    margin: 30px 0 10px 0px;
+}
+
+@media only screen and (min-width: 800px) {
+    #contact .contactCointainer {
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        flex-direction: row;
+        justify-content: space-between;
+        -webkit-box-align: start;
+        align-items: flex-start;
+    }
+}
+
+#contact h1 {
+    text-align: left;
+    font-size: 1.6rem;
+    margin: 15px 0px;
+    color: #64ffda;
+}
+
+#contact h3 {
+    margin: 15px 0px;
+    text-align: left;
+    font-size: 1.2rem;
+   
+}
+
+#contact p {
+    margin: 15px 0px;
+}
+
+@media only screen and (min-width: 800px) {
+    .contactHeading .containerForm {
+        width: 57%;
+    }
+}
+
+/* @media only screen and (min-width:1000px) {
+    .contactHeading .containerSocial {
+        padding: 126px 0 0 45px;
+    }
+}
+
+@media only screen and (min-width:900px) {
+    .contactHeading .containerSocial {
+        padding: 157px 0 0 40px;
+    }
+} */
+
+@media only screen and (min-width:800px) {
+    .contactHeading .containerSocial {
+        width: 47%;
+        padding: 145px 0 0 35px;
+    }
+}
+
+.contactHeading .containerSocial p {
+    line-height: 1.55;
+    font-weight: 700;
+}
+
+.contactHeading .containerForm p {
+    line-height: 1.55;
+}
+
+.contactHeading .form {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 50px;
+}
+
+.contactHeading .field {
+    margin-bottom: 10px;
+}
+
+.contactHeading .form input, .contactHeading .form textarea {
+    box-shadow: 2px 2px #64ffda;
+}
+
+.contactHeading .form input, .contactHeading .form label, .contactHeading .form textarea {
+    
+    border: 2px solid rgba(72, 216, 164, 0);
+    width: 70%;
+    display: block;
+    padding: 1.2rem 0.6rem 0.4rem;
+
+}
+
+.contactHeading .form textarea {
+    height: 75px;
+}
+
+.contactHeading .form label {
+    pointer-events: none;
+    height: 20px;
+    
+}
+
+.contactHeading input#email, .contactHeading input#name, .contactHeading textarea#message {
+    margin-left: 15px;
+}
+
+::placeholder {
+    color: darkgray;
+    font-size: 1rem;
+  }
+
+  .contactHeading .btn {
+    margin: 7px 20px;
+    background-color: #64ffda;
+    opacity: 85%;
+    position: relative;
+    display: inline-block;
+    padding: 0.7rem 1.5rem 0.7rem;
+    border: none;
+    margin-right: 5px;
+    border-radius: 5%;
+    color: #0a192f;
+    font-size: 1rem;
+    font-style: italic;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 250ms;
+  }
+
+  .contactHeading .btn:hover {
+    background-color: orange;
+    transform: translateY(-5px);
+  }
+
+  .containerSocial .socialIcons {
+      max-width: 500px;
+      
+  }
+
+  .containerSocial .socialIcons ul {
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      flex-direction: row;
+      flex-wrap: wrap;
+      -webkit-box-pack: justify;
+      justify-content: space-around;
+      -webkit-box-align: center;
+      align-items: center;
+      
+
+  }
+  
+  .containerSocial .socialIcons ul, .containerSocial .socialIcons li {
+      list-style-type: none;
+      
+      margin: 0;
+      padding: 0;
+  }
+
+  .socialIcons ul {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .socialIcons .devicon {
+    font-size: 60px;
+    color: white;
+    border: none;
+    box-shadow: none;
+    
+  }
+
+  .socialIcons .linkedin {
+      font-size: 60px;
+  }
+
+  .socialIcons a {
+    background-clip: padding-box;
+  }
+
+  .linkedin::before {
+      border: none;
+  }

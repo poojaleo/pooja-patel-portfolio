@@ -1,15 +1,28 @@
 import React from "react";
 import './skills.css';
-import dynamoIcon from '../../images/dynamoDB.png';
-import restApi from '../../images/restapi.png'
-import lambda from '../../images/lambda.png'
-import aws from '../../images/aws1.png'
+import db from '../../images/db.png';
+import restApi from '../../images/api2.png';
+import lambda from '../../images/lambda1.png';
+import aws from '../../images/aws3.png';
+
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { faDatabase } from "@fortawesome/free-solid-svg-icons";
+
+
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+
+
 
 class Skills extends React.Component {
     render() {
+        
+        const databaseElement = <FontAwesomeIcon icon={faDatabase} />;
+
         return (
             <div id="skills" className="skillsection">
-                <h2> Skills &amp; Technologies </h2>
+                <h1> Skills &amp; Technologies </h1>
                 <p>The skills, tools and technologies I use to bring products to life:</p>
                 <div className="containersIcon">
                     <div className="boxIcon">
@@ -46,7 +59,8 @@ class Skills extends React.Component {
                     </div>
 
                     <div className="boxIcon">
-                        <img className="imageIcon" src={dynamoIcon}></img>
+                        <img className="imageIcon" src={db}></img>
+                        {/* <i class="devicon fas fa-database"></i> */}
                         <p>DynamoDB</p>
                     </div>
                     <div className="boxIcon">
@@ -57,7 +71,7 @@ class Skills extends React.Component {
                     <i className="devicon devicon-intellij-plain" aria-hidden="true"></i>
                     <p>Intellij</p>
                     </div>
-                    <div className="boxIcon">
+                    <div className="boxIcon lambda">
                         <img className="imageIcon" src={lambda}></img>
                         <p>AWS Lambda</p>
                     </div>
@@ -88,8 +102,10 @@ class Skills extends React.Component {
                     </div>
                 </div>
 
-                <h3>Currently working on:</h3>
-                <p>Improving my skills in, and understanding of Docker, Kubernetes.</p>
+                <div className="currentlyWorking">
+                    <h3>Currently working on:</h3>
+                    <p>Improving my skills in, and understanding of Docker, Kubernetes.</p>
+                </div>
             </div>
 
         );

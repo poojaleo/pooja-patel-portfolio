@@ -3,42 +3,69 @@
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: darkcyan;
+    background-color: #0a192f;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 5rem;
-}
-
-.navbar {
-    
-    flex-direction: column;
-    justify-content: center;
-    
-    background-size: cover;
-    height: 25rem;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 4rem;
 }
 
 .head ul {
+    display: flex;
     list-style: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     overflow: hidden;
-    
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #0a192f;
+    text-align: center;
 }
 
-.head li {
-    float: left;
-    border-right: 1px solid #bbb;
+
+.head ul li {
+    position: relative;
+
 }
 
 .head li a {
-    display: block;
+    display: inline-block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: transform 250ms;
+    color: whitesmoke;
 }
 
 .head li a:hover {
-    background-color: darkgreen;
+    color: #64ffda;
+    transform: translateY(-5px);
 }
+
+.head .resume {
+    padding: 10px;
+    margin: 15px;
+}
+
+.head .resumeButton {
+    color: #64ffda;
+    background-color: transparent;
+    border: 1px solid #64ffda;
+    border-radius: 4px;
+    padding: 0.5rem 0.5rem;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 15px;
+    transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+}
+
+.head .resume a:hover {
+    opacity: 50%;
+    transform: translateY(-5px);
+}
+
+
+

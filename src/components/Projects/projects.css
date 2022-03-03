@@ -4,18 +4,31 @@
     flex-direction: column;
     justify-content: space-between;
     width: 20.66rem;
-    margin: 0 .5rem 2.3rem .5rem;
+    margin: 0 .5rem 2.3rem 0rem;
 }
 
 .projects .imageContainer {
-    height: 14.66rem;
+    height: 11.66rem;
     margin-bottom: 1rem;
+    object-fit: contain;
+    object-position: center;
+    text-align: center;
+}
+
+.projects .imageContainer img {
+    display: block;
+    margin: auto;
 }
 
 .projectImage {
     border-radius: 0%;
     max-height: 100%;
     max-width: 100%;
+}
+
+.projects .projectText {
+    padding: 2% 4%;
+    line-height: 1.2;
 }
 
 
@@ -33,32 +46,49 @@
 }
 
 .projectInformation p {
-    font-size: .88rem;
+    
     font-weight: 300;
     line-height: 1rem;
 }
 
 .projects .workButtons {
-    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
+
+.projects .workButtons span {
+    font-weight: 400;
+}
+
 
 .projects .linkbutton {
     margin-bottom: 7px;
-    background-color: aqua;
+    background-color: #64ffda;
+    opacity: 85%;
     position: relative;
     display: inline-block;
-    padding: 0.5rem 1.5rem 1rem;
+    padding: 0.5rem;
     border: none;
     margin-right: 5px;
     transition: all 300ms ease-out;
 }
 
-.projects .a {
-    color: black;
+.projects .a, .linkbutton {
+    color: #0a192f;
     text-decoration: none;
     letter-spacing: 0.01rem;
-    font-size: 1.1rem;
-    font-weight: 700;
+    font-size: 1rem;
     font-style: italic;
     text-transform: capitalize;
+}
+
+.projects a {
+    cursor: pointer;
+    transition: transform 250ms;
+}
+
+
+.projects a:hover {
+    background-color: orange;
+    transform: translateY(-5px);
 }
