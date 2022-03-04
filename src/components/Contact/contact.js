@@ -1,8 +1,8 @@
 import React from "react";
-import Airform from 'react-airform';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSquareEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
+import Contactform from "../ContactForm/contactform";
 
 import './contact.css';
 
@@ -21,27 +21,8 @@ class Contact extends React.Component {
                             <div className="containerForm">
                                 <p>Dropping a line to say g’day, ask for my resume or see if we can build something amazing together? I’d love to hear from you!</p>
                                 <div className="form">
-                                    <Airform  email="poojapatel.leo@gmail.com">
-                                    <div className="field">
-                                        <label htmlFor="name">Name<span className="required">*</span></label>
-                                        <input type="text" name="name" id="name" required="required" placeholder="Full name"></input>
-                                        
-                                    </div>
-                                    <div className="field">
-                                        <label htmlFor="email">Email<span className="required">*</span></label>
-                                        <input type="email" name="_replyto" id="email" required="required" placeholder="Email Address" />
-                                        
-                                    </div>
-                                    <div className="field">
-                                        <label htmlFor="message" className="message">Message<span className="required">*</span></label>
-                                        <textarea type="text" name="message" id="message" required="required" placeholder="Your Message"></textarea>
-                                        
-                                    </div>
-                                    <button className="btn" value="send">
-                                        <span>Send message</span>
-                                        <i className="far fa-envelope-open" aria-hidden="true"></i>
-                                    </button>
-                                    </Airform>
+                                    <Contactform />
+                                   
                                 </div>
                             </div>
                             
