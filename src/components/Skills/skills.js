@@ -4,14 +4,6 @@ import db from '../../images/db.png';
 import restApi from '../../images/api2.png';
 import lambda from '../../images/lambda1.png';
 import aws from '../../images/aws3.png';
-import { faDatabase } from "@fortawesome/free-solid-svg-icons";
-
-
-
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
-
-
 
 class Skills extends React.Component {
     render() {
