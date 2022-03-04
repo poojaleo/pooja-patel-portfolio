@@ -35,11 +35,11 @@ class Skills extends React.Component {
                     </div>
                     <div className="boxIcon">
                         <i className="devicon devicon-javascript-plain"></i>
-                        {/* <i class="fab fa-js" aria-hidden="true"></i> */}
+                        {/* <i className="fab fa-js" aria-hidden="true"></i> */}
                         <p>Javascript</p>
                     </div>
                     <div className="boxIcon">
-                        <i class="devicon devicon-react-original" aria-hidden="true"></i>
+                        <i className="devicon devicon-react-original" aria-hidden="true"></i>
                         <p>React</p>
                     </div>
                     <div className="boxIcon">

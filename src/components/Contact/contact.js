@@ -23,23 +23,23 @@ class Contact extends React.Component {
                                 <div className="form">
                                     <Airform  email="poojapatel.leo@gmail.com">
                                     <div className="field">
-                                        <label for="name">Name<span className="required">*</span></label>
+                                        <label htmlFor="name">Name<span className="required">*</span></label>
                                         <input type="text" name="name" id="name" required="required" placeholder="Full name"></input>
                                         
                                     </div>
                                     <div className="field">
-                                        <label for="email">Email<span class="required">*</span></label>
+                                        <label htmlFor="email">Email<span className="required">*</span></label>
                                         <input type="email" name="_replyto" id="email" required="required" placeholder="Email Address" />
                                         
                                     </div>
                                     <div className="field">
-                                        <label for="message" class="message">Message<span class="required">*</span></label>
+                                        <label htmlFor="message" className="message">Message<span className="required">*</span></label>
                                         <textarea type="text" name="message" id="message" required="required" placeholder="Your Message"></textarea>
                                         
                                     </div>
-                                    <button class="btn" value="send">
+                                    <button className="btn" value="send">
                                         <span>Send message</span>
-                                        <i class="far fa-envelope-open" aria-hidden="true"></i>
+                                        <i className="far fa-envelope-open" aria-hidden="true"></i>
                                     </button>
                                     </Airform>
                                 </div>
