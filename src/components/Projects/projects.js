@@ -1,7 +1,6 @@
 import React from "react";
 import './projects.css';
-import jammingImage from '../../images/jamming.jpeg';
-import yelpImage from '../../images/yelp.jpeg';
+
 
 class Projects extends React.Component {
     render() {
