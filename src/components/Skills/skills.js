@@ -4,8 +4,6 @@ import db from '../../images/db.png';
 import restApi from '../../images/api2.png';
 import lambda from '../../images/lambda1.png';
 import aws from '../../images/aws3.png';
-
-import { library } from "@fortawesome/fontawesome-svg-core";
 import { faDatabase } from "@fortawesome/free-solid-svg-icons";
 
 
@@ -17,9 +15,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 class Skills extends React.Component {
     render() {
-        
-        const databaseElement = <FontAwesomeIcon icon={faDatabase} />;
-
+        //const databaseElement = <FontAwesomeIcon icon={faDatabase} />;
         return (
             <div id="skills" className="skillsection">
                 <h1> Skills &amp; Technologies </h1>
@@ -59,7 +55,7 @@ class Skills extends React.Component {
                     </div>
 
                     <div className="boxIcon">
-                        <img className="imageIcon" src={db}></img>
+                        <img className="imageIcon" src={db} alt="database"></img>
                         {/* <i class="devicon fas fa-database"></i> */}
                         <p>DynamoDB</p>
                     </div>
@@ -72,16 +68,16 @@ class Skills extends React.Component {
                     <p>Intellij</p>
                     </div>
                     <div className="boxIcon lambda">
-                        <img className="imageIcon" src={lambda}></img>
+                        <img className="imageIcon" src={lambda} alt="aws lambda"></img>
                         <p>AWS Lambda</p>
                     </div>
                     <div className="boxIcon">
-                        <img className="imageIcon" src={aws}></img>
+                        <img className="imageIcon" src={aws} alt="aws web services"></img>
                         <p>AWS Web Services</p>
                     </div>
 
                     <div className="boxIcon"> 
-                        <img className="imageIcon" src={restApi}></img>
+                        <img className="imageIcon" src={restApi} alt="rest API"></img>
                         <p>Restful API's</p>
                     </div>
                     

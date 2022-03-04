@@ -8,7 +8,7 @@ class Projects extends React.Component {
         return (
                 <div className="projects">
                     <div className="imageContainer">
-                        <img className="projectImage" src = {project.image} alt="project image" />
+                        <img className="projectImage" src = {project.image} alt="project snapshot" />
                     </div>
                     <div className="projectText">
                         <h2>{project.title}</h2>
@@ -17,10 +17,10 @@ class Projects extends React.Component {
                             <p>{project.description}</p>
                         </div>
                         <div className="workButtons">
-                            <a href= {project.weblink} target = "_blank" className="linkbutton">
+                            <a href= {project.weblink} target = "_blank" rel="noreferrer" className="linkbutton">
                                 <span>View It Here</span>
                             </a>
-                            <a href= {project.gitlink} target = "_blank" className="linkbutton">
+                            <a href= {project.gitlink} target = "_blank" rel="noreferrer" className="linkbutton">
                                 <span>View Github Repo</span>
                             </a>
                         </div>

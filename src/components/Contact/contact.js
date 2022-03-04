@@ -31,16 +31,16 @@ class Contact extends React.Component {
                                 <div className="socialIcons">
                                     <ul>
                                         <li className="icon">
-                                        <a href="https://github.com/poojaleo" target="_blank" aria-label="open link to pooja patel's github page.">
+                                        <a href="https://github.com/poojaleo" target="_blank" rel="noreferrer" aria-label="open link to pooja patel's github page.">
                                         <i className="devicon devicon-github-original-wordmark"></i></a>
                                         </li>
                                         <li className="icon">
-                                        <a href="https://www.linkedin.com/in/poojapatel04/" target="_blank" aria-label="open link to pooja patel's Linkedin's page.">
+                                        <a href="https://www.linkedin.com/in/poojapatel04/" target="_blank" rel="noreferrer" aria-label="open link to pooja patel's Linkedin's page.">
                                         {/* <i className="devicon devicon-linkedin-plain"></i></a> */}
                                         <i className="devicon linkedin devicon-linkedin-plain"></i></a>
                                         </li>
                                         <li className="icon">
-                                        <a href="mailto:poojapatel.leo@gmail.com" target="_blank" aria-label="Email to pooja patel">
+                                        <a href="mailto:poojapatel.leo@gmail.com" target="_blank" rel="noreferrer" aria-label="Email to pooja patel">
                                         <div className="devicon">{emailElement}</div></a>
                                         </li>
                                         
