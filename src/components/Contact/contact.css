@@ -197,7 +197,8 @@
   }
 
   .socialIcons a {
-    background-clip: padding-box;
+      background-clip: padding-box;
+      text-decoration: none;
   }
 
   .linkedin::before {

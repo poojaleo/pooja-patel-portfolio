@@ -22,8 +22,8 @@
 
 .projectImage {
     border-radius: 0%;
-    max-height: 100%;
-    max-width: 100%;
+    max-height: 125%;
+    max-width: 125%;
 }
 
 .projects .projectText {
@@ -48,7 +48,7 @@
 .projectInformation p {
     
     font-weight: 300;
-    line-height: 1rem;
+    line-height: 1.2rem;
 }
 
 .projects .workButtons {

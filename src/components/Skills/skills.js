@@ -4,6 +4,7 @@ import db from '../../images/db.png';
 import restApi from '../../images/api2.png';
 import lambda from '../../images/lambda12.png';
 import aws from '../../images/aws6.png';
+import swagger from '../../images/swagger-icon.png';
 
 class Skills extends React.Component {
     render() {
@@ -31,8 +32,8 @@ class Skills extends React.Component {
                         <p>React</p>
                     </div>
                     <div className="boxIcon">
-                        <i className="devicon devicon-visualstudio-plain" aria-hidden="true"></i>
-                        <p>VS Code</p>
+                        <i className="devicon devicon-bootstrap-plain" aria-hidden="true"></i>
+                        <p>Bootstrap</p>
                     </div>
 
                     <div className="boxIcon">
@@ -56,8 +57,8 @@ class Skills extends React.Component {
                     <p>Gradle</p>
                     </div>
                     <div className="boxIcon">
-                    <i className="devicon devicon-intellij-plain" aria-hidden="true"></i>
-                    <p>Intellij</p>
+                    <i className="devicon devicon-docker-plain" aria-hidden="true"></i>
+                    <p>Docker</p>
                     </div>
                     <div className="boxIcon lambda">
                         <img className="imageIcon" src={lambda} alt="aws lambda"></img>
@@ -75,8 +76,8 @@ class Skills extends React.Component {
                     
                     
                     <div className="boxIcon">
-                        <i className="devicon devicon-git-plain" aria-hidden="true"></i>
-                        <p>Git</p>
+                        <img className="imageIcon" src={swagger} alt="aws lambda"></img>
+                        <p>Swagger API Documentation</p>
                     </div>
                     {/* <div className="boxIcon">
                         <i class="devicon devicon-github-plain" aria-hidden="true"></i>
@@ -85,8 +86,8 @@ class Skills extends React.Component {
 
                     
                     <div className="boxIcon">
-                    <i className="devicon devicon-bash-plain" aria-hidden="true"></i>
-                    <p>Bash</p>
+                    <i className="devicon devicon-git-plain" aria-hidden="true"></i>
+                    <p>Git</p>
                     </div>
                 </div>
 
