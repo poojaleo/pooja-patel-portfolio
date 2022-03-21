@@ -9,8 +9,8 @@ class Navbar extends React.Component {
                 <ul className="list">
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#contact">Hire Me</a></li>
+                    <li><a href="#skills" className="hide">Skills</a></li>
+                    <li><a href="#contact" className="hide">Hire Me</a></li>
                 </ul>
                 <div className="resume">
                     <a className="resumeButton" href={Resume} target="_blank" rel="noopener noreferrer" >Resume</a>

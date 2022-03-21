@@ -1,5 +1,6 @@
 import React from "react";
 import './projects.css';
+import './Yelp_Prototype.png';
 
 
 class Projects extends React.Component {

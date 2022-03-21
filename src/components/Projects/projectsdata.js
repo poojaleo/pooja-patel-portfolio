@@ -1,3 +1,5 @@
+import './Yelp_Prototype.png';
+
 export const projects = [
     {
         title: "Jamming",
@@ -12,7 +14,7 @@ export const projects = [
         subtitle: "React, API",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "./yelp.jpeg",
+        image: "./Yelp_Prototype.png",
         link: "https://google.com",
       },
       {
@@ -20,7 +22,7 @@ export const projects = [
         subtitle: "React and Firebase",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-        image: "./jamming.jpeg",
+        image: "./Yelp_Prototype.png",
         link: "https://jsbootcamp.com",
       }
 ];

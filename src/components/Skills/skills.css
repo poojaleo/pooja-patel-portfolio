@@ -5,6 +5,20 @@
     padding: 0 8%;
 }
 
+@media only screen and (max-width: 700px) {
+    .skillsection {
+        padding: 0%;
+        
+    }
+
+    .skillsection h1, .skillsection p, .skillsection .currentlyWorking {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    
+}
+
 .skillsection h1 {
     text-align: left;
     font-size: 1.6rem;
@@ -85,8 +99,7 @@
 }
 
 .currentlyWorking p {
-    padding-bottom: 10px;
-
+    padding: 10px 0%;
 }
 
 

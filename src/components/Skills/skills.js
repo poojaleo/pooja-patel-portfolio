@@ -2,8 +2,8 @@ import React from "react";
 import './skills.css';
 import db from '../../images/db.png';
 import restApi from '../../images/api2.png';
-import lambda from '../../images/lambda1.png';
-import aws from '../../images/aws3.png';
+import lambda from '../../images/lambda12.png';
+import aws from '../../images/aws6.png';
 
 class Skills extends React.Component {
     render() {
